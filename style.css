@@ -1,5 +1,5 @@
 body {
-  font-family: 'montserratlight';
+  font-family: 'montserratlight', sans-serif;
   margin: 0 auto;
 }
 
@@ -260,7 +260,6 @@ body {
 
   .img {
     background: url(img/girl_mobile.png) center no-repeat;
-
   }
 
   .section {
@@ -331,7 +330,7 @@ body {
   font-size: 16px;
   line-height: 16px;
   letter-spacing: 0.07em;
-  opacity: .5;
+  opacity: 0.5;
   font-family: 'montserratbold';
 }
 
@@ -395,7 +394,7 @@ body {
   font-size: 13px;
   line-height: 16px;
   margin-top: 39px;
-  font-family: 'montserratbold';
+  font-family: 'montserratbold', sans-serif;
 }
 
 @media (max-width: 1223px) {
@@ -428,12 +427,12 @@ body {
     margin-right: 9px;
     height: 23px;
     width: 23px;
-}
+  }
 
   .circle_pink {
     height: 30px;
     width: 30px;
-}
+  }
 
   .next-page {
     display: none;
