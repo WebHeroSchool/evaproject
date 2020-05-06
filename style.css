@@ -384,6 +384,7 @@ body {
     .box {
         padding: 16px 37px 25px 31px;
         min-width: 270px;
+    }
 }
 @media (max-width: 1100px) {
     .bag {
