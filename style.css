@@ -88,13 +88,13 @@ body {
 }
 
 .heading {
-  font-family: 'montserratbold';
+  font-family: 'montserratbold', sans-serif;
   font-size: 80px;
   margin-bottom: 26px;
 }
 
 .text {
-  font-family: 'montserratbold';
+  font-family: 'montserratbold', sans-serif;
   color: black;
   font-size: 15px;
   line-height: 21px;
@@ -104,7 +104,7 @@ body {
 .btn {
   border: 1.5px solid #000;
   text-decoration: none;
-  font-family: 'montserratbold';
+  font-family: 'montserratbold', sans-serif;
   font-size: 13px;
   padding: 14px 35px;
   color: #000;
@@ -115,7 +115,7 @@ body {
 
 .button {
   text-decoration: none;
-  font-family: 'montserratbold';
+  font-family: 'montserratbold', sans-serif;
   font-size: 13px;
   line-height: 21px;
   color: #000;
@@ -322,7 +322,7 @@ body {
 .title {
   font-size: 40px;
   line-height: 41px;
-  font-family: 'montserratbold';
+  font-family: 'montserratbold', sans-serif;
   margin-bottom: 0;
 }
 
@@ -331,7 +331,7 @@ body {
   line-height: 16px;
   letter-spacing: 0.07em;
   opacity: 0.5;
-  font-family: 'montserratbold';
+  font-family: 'montserratbold', sans-serif;
 }
 
 .text_opacity {
@@ -376,7 +376,7 @@ body {
   font-size: 40px;
   line-height: 56px;
   text-align: right;
-  font-family: 'montserratbold';
+  font-family: 'montserratbold', sans-serif;
 }
 
 .btn_cost {
@@ -417,7 +417,7 @@ body {
   .bag {
     padding-left: 0;
     background: none;
-}
+  }
 
   .box {
     margin-left: 0;
