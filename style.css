@@ -211,7 +211,6 @@ body {
 @media (max-width: 780px) {
   .rectngle {
     background: #fff;
-    height: auto;
     padding: 0;
     height: 69px;
   }
