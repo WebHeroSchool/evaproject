@@ -334,13 +334,6 @@ body {
   }
 }
 
-
-
-
-
-
-
-
 .page2 {
   width: 100%;
   height: 900px;
@@ -696,7 +689,7 @@ body {
 
 @media (max-width: 515px) {
   .page3 {
-  background: linear-gradient(to right, #ebe3d8 27%, #000 27%, #000 37%, #ebe3d8 37%);
+    background: linear-gradient(to right, #ebe3d8 27%, #000 27%, #000 37%, #ebe3d8 37%);
     height: 596px;
   }
 
