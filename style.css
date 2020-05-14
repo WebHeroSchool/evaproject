@@ -145,6 +145,10 @@ body {
   margin-left: 50px;
 }
 
+.button:hover {
+  text-shadow: 1px 1px 2px #dcdcdc;
+}
+
 .scrolling {
   position: absolute;
   left: 707px;
@@ -467,6 +471,11 @@ body {
   font-family: 'montserratbold', sans-serif;
 }
 
+.next-page:hover {
+  color: #696969;
+  cursor: pointer;
+}
+
 @media (max-width: 1300px) {
   .wrap {
     padding-right: 30px;
@@ -653,6 +662,11 @@ body {
   font-family: 'montserratbold', sans-serif;
   position: absolute;
   left: 948px;
+}
+
+.page3__next-page:hover {
+  color: #696969;
+  cursor: pointer;
 }
 
 @media (max-width: 1315px) {
