@@ -543,6 +543,10 @@ body {
     width: 100%;
   }
 
+  .btn {
+    margin-left: 50px;
+}
+
   .btn_next {
     display: inline-block;
     width: 169px;
@@ -556,6 +560,7 @@ body {
 @media (max-width: 515px) {
   .page2 {
     height: 596px;
+    min-width: 375px;
   }
 
   .imgs {
@@ -584,6 +589,10 @@ body {
     margin: 0;
   }
 
+    .btn {
+    margin-left: 0;
+}
+
   .text {
     font-size: 9px;
     line-height: 13px;
@@ -602,13 +611,18 @@ body {
   background: linear-gradient(to right, #ebe3d8 27%, #000 27%, #000 32%, #ebe3d8 32%);
 }
 
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-left: 40px;
+}
+
 .pic {
   width: 827px;
-  height: 621px;
   position: relative;
   display: inline-block;
-  top: 139px;
-  left: 84px;
   z-index: 1;
 }
 
@@ -623,7 +637,7 @@ body {
   width: 375px;
   position: relative;
   z-index: 2;
-  top: -80px;
+  left: -100px;
 }
 
 .textbox_text {
@@ -635,56 +649,37 @@ body {
   width: 350px;
   font-size: 13px;
   line-height: 16px;
-  top: -40px;
+  top: 650px;
   font-family: 'montserratbold', sans-serif;
-  position: relative;
+  position: absolute;
   left: 948px;
 }
 
 @media (max-width: 1315px) {
   .pic {
     width: 650px;
-    height: auto;
-  }
-
-  .textbox {
-    top: 0;
   }
 
   .page3__next-page {
-    left: 748px;
-    top: 20px;
-  }
-}
-
-@media (max-width: 1129px) {
-  .pic {
-    top: 34px;
-  }
-
-  .textbox {
-    top: -25px;
-    left: 150px;
-  }
-
-  .page3__next-page {
-    left: 360px;
-    top: 2px;
+    left: 430px;
+    top: 800px;
   }
 }
 
 @media (max-width: 780px) {
-  .pic {
-    width: 550px;
+  .wrapper {
+    flex-direction: column;
+    padding: 0 10px 0 10px;
   }
 
   .textbox {
-    width: 305px;
-    padding: 23px 21px 28px 24px;
+    left: 0;
+    top: -20px;
   }
 
   .page3__next-page {
     left: 250px;
+    top: 850px;
   }
 }
 
@@ -694,7 +689,7 @@ body {
   }
 
   .page3__next-page {
-    left: 250px;
+    top: 800px;
     width: 153px;
     height: 50px;
     font-size: 15px;
@@ -707,21 +702,26 @@ body {
   .page3 {
     background: linear-gradient(to right, #ebe3d8 27%, #000 27%, #000 37%, #ebe3d8 37%);
     height: 596px;
+    min-width: 375px;
+  }
+
+  .wrapper {
+    justify-content: flex-start;
+    padding: 34px 10px 0 10px;
+    height: auto;
   }
 
   .pic {
     width: 350px;
-    left: 11px;
   }
 
   .textbox {
-    top: 10px;
+    padding: 23px 21px 28px 24px;
     width: 265px;
-    left: 44px;
   }
 
   .page3__next-page {
     left: 188px;
-    top: 55px;
+    top: 510px;
   }
 }
