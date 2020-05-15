@@ -151,12 +151,15 @@ body {
 
 .scrolling {
   position: absolute;
-  left: 707px;
   top: 815px;
   width: 27px;
   height: 46px;
   border: 2px solid #000;
   border-radius: 45%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  transform: translate(0, -50%);
 }
 
 .scrolling__line {
@@ -305,14 +308,20 @@ body {
     margin: 0;
   }
 
+  .arrow-down {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    top: 90%;
+  }
+
   i {
     position: absolute;
     border: solid black;
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 10px;
-    left: 170px;
-    top: 87%;
   }
 
   .down {
@@ -345,12 +354,6 @@ body {
 
   i {
     top: 90%;
-  }
-}
-
-@media (min-width: 1500px) {
-  .scrolling {
-    display: none;
   }
 }
 
